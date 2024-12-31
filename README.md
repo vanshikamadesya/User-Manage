@@ -10,7 +10,7 @@
 To get a local copy of the code, clone it using git:
 
 ```
-git clone https://github.com/TusharSavaliya987/CRUDE-Demo.git
+git clone https://github.com/vanshikamadesya/User-Manage.git
 cd crud-app
 ```
 
@@ -39,6 +39,6 @@ and then you can open http://localhost:3000 to view it in the browser.
 
 ## Credits
 
-CRUD App is built and maintained by [Tushar Savaliya](https://github.com/TusharSavaliya987/CRUDE-Demo.git).
+CRUD App is built and maintained by [vanshika madesya](https://github.com/vanshikamadesya/User-Manage.git).
 
 
