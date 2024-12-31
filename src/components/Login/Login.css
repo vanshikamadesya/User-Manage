@@ -1,0 +1,134 @@
+
+body.login-page {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Arial", sans-serif;
+  background: url("../../images/background.png") no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+body {
+  /* Ensure other pages don't inherit the background */
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+
+.small-container {
+  width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.small-container {
+  width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Title */
+form h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: #333;
+}
+
+/* Subtitle */
+form h5 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Input Labels */
+form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #444;
+  font-size: 14px;
+}
+
+/* Input Fields */
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border 0.3s ease;
+}
+
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Login Button */
+form input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #0056b3;
+  transform: scale(1.03);
+}
+
+form input[type="submit"]:active {
+  transform: scale(0.97);
+}
+
+/* Additional Styling */
+form {
+  font-family: "Arial", sans-serif;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+  .small-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  form h1 {
+    font-size: 22px;
+  }
+
+  form h5 {
+    font-size: 12px;
+  }
+
+  form input[type="submit"] {
+    font-size: 14px;
+  }
+}
